@@ -1,0 +1,13 @@
+USBのマウントの手順
+
+$ ls -al /dev/disk/by-uuid/ | grep sdb
+lrwxrwxrwx 1 root root  10 11月 21 09:45 58A6-AA35 -> ../../sdb1
+
+$ sudo mount /dev/disk/by-uuid/58A6-AA35 /mnt/usbdisk1 -t vfat -o umask=000
+エラーがでなければマウント成功
+
+$ df | grep sdb
+/dev/sdb1         15147008    811616 14335392    6% /mnt/usbdisk1
+
+アンマウントのやり方
+$ sudo umount /dev/sdb1

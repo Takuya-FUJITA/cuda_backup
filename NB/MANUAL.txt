@@ -1,0 +1,9 @@
+
+./Separate_Tweet/
+1Tweet1文書の実験．
+
+./Connect_Tweet/
+複数のTweetをまとめた実験．しかし，負例を無作為に抽出した後にまとめているので，まとめられたTweetは時間的に連続していない．
+
+./Connect_Time/
+任意の時間でTweetをまとめた実験．

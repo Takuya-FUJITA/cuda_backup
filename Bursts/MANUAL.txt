@@ -1,0 +1,5 @@
+実行順番
+$julia extract_date.jl
+$julia divide_sec_csv.jl
+$ipython
+In [1]: %run apply_bursts-Copy1.py

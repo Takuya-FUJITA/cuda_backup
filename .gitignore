@@ -1,0 +1,8 @@
+# データはgitで管理しない
+*.csv
+*.png
+/Tsukuba
+__pycache__
+
+.DS_Store
+ *.swp
